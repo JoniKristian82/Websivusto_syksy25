@@ -15,7 +15,7 @@ p {
     }
     
     table {
-      width: 100%;
+      width: 50%;
       border-collapse: collapse;
     }
     
@@ -43,6 +43,7 @@ p {
       padding: 8px;
       border: 1px solid #ddd;
       border-radius: 4px;
+      width :20%;
     }
     
     input[type="submit"] {
