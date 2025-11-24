@@ -97,3 +97,22 @@
       background-color: lightseagreen;
     }
   }
+  .responsive-container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    .column {
+      flex: 1;
+      padding: 10px;
+    }
+    
+    @media (max-width: 600px) {
+      .column {
+        flex: 100%;
+      }
+    }
+    .responsive-image {
+      max-width: 100%;
+      height: auto;
+    }
